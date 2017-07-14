@@ -1,0 +1,28 @@
+PASTA INFO: Directory for temporary files created at /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/TEMPORARIES/pastajob/tempy5aUe8
+PASTA INFO: Name translation information saved to /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/pastajob1_temp_name_translation.txt as safe name, original name, blank line format.
+PASTA INFO: Creating a starting tree for the PASTA algorithm...
+PASTA INFO: Performing initial alignment of the entire data matrix...
+PASTA INFO: Performing initial tree search to get starting tree...
+PASTA INFO: Starting PASTA algorithm on initial tree...
+PASTA INFO: Max subproblem set to 200
+PASTA INFO: Step 0. Realigning with decomposition strategy set to centroid
+PASTA INFO: Step 0. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and score improved.
+PASTA INFO: current score: -108444.677, best score: -108444.677
+PASTA INFO: Step 1. Realigning with decomposition strategy set to centroid
+PASTA INFO: Step 1. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and despite the score not improving.
+PASTA INFO: current score: -108453.073, best score: -108444.677
+PASTA INFO: Step 2. Realigning with decomposition strategy set to centroid
+PASTA INFO: Step 2. Alignment obtained. Tree inference beginning...
+PASTA INFO: realignment accepted and score improved.
+PASTA INFO: current score: -108366.368, best score: -108366.368
+PASTA INFO: Writing resulting alignment to /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/pastajob1.marker001.unaligned.aln
+PASTA INFO: Writing resulting tree to /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/pastajob1.tre
+PASTA INFO: Writing resulting likelihood score to /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/pastajob1.score.txt
+PASTA INFO: The resulting alignment (with the names in a "safe" form) was first written as the file "/home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/pastajob1_temp_iteration_2_seq_alignment.txt"
+PASTA INFO: The resulting tree (with the names in a "safe" form) was first written as the file "/home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/pastajob1_temp_iteration_2_tree.tre"
+PASTA INFO: Total time spent: 214.278414965s
+PASTA INFO: Note that temporary files from the run have not been deleted, they can be found in:
+   '/home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/TEMPORARIES/pastajob/tempy5aUe8'
+

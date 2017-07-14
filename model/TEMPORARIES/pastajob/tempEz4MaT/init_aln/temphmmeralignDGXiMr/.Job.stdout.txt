@@ -1,0 +1,9 @@
+/home/ziyang96/Tools/pasta/bin/hmmbuild --symfrac 0.0 --amino --informat afa /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/TEMPORARIES/pastajob/tempEz4MaT/init_aln/temphmmeralignDGXiMr/input.fasta.hmm /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/TEMPORARIES/pastajob/tempEz4MaT/init_aln/temphmmeralignDGXiMr/input.fasta
+Finished hmmbuild Job with return code: 0
+ output: # hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.1b1 (May 2013); h ... continued ...
+/home/ziyang96/Tools/pasta/bin/hmmalign --amino --mapali /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/TEMPORARIES/pastajob/tempEz4MaT/init_aln/temphmmeralignDGXiMr/input.fasta /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/TEMPORARIES/pastajob/tempEz4MaT/init_aln/temphmmeralignDGXiMr/input.fasta.hmm /home/ziyang96/Datasets/10smallAA/balibase/1GADBL_100/model/TEMPORARIES/pastajob/tempEz4MaT/init_aln/query-1.fasta
+Finished hmmalign Job with return code: 0
+ output: # STOCKHOLM 1.0
+
+seq21          ......-----------------IVFRA-AQER----SDI--EIVAIND-LL-DADYM.......... ... continued ...

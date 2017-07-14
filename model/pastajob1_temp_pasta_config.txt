@@ -1,0 +1,95 @@
+[clustalw2]
+args = 
+path = /home/ziyang96/Tools/pasta/bin/clustalw2
+
+[commandline]
+aligned = False
+auto = False
+datatype = protein
+input = unaligned.fasta
+job = pastajob
+keepalignmenttemps = True
+keeptemp = True
+multilocus = False
+raxml_search_after = False
+temporaries = TEMPORARIES
+two_phase = False
+untrusted = False
+
+[fakealigner]
+path = 
+
+[faketree]
+path = 
+
+[fasttree]
+args = 
+model = -wag -gamma -fastest
+options = 
+path = /home/ziyang96/Tools/pasta/bin/fasttree
+
+[hmmeralign]
+path = /home/ziyang96/Tools/pasta/bin/hmmeralign
+
+[mafft]
+args = 
+path = /home/ziyang96/Tools/pasta/bin/mafft
+
+[muscle]
+args = 
+path = /home/ziyang96/Tools/pasta/bin/muscle
+
+[opal]
+args = 
+path = /home/ziyang96/Tools/pasta/bin/opal.jar
+
+[padaligner]
+path = 
+
+[prank]
+args = 
+path = /home/ziyang96/Tools/pasta/bin/prank
+
+[probalign]
+args = 
+path = /home/ziyang96/Tools/pasta/bin/probalign
+
+[probcons]
+args = 
+path = 
+
+[randtree]
+path = 
+
+[raxml]
+args = 
+model = 
+path = /home/ziyang96/Tools/pasta/bin/raxml
+
+[sate]
+after_blind_iter_term_limit = -1
+after_blind_iter_without_imp_limit = -1
+after_blind_time_term_limit = -1.0
+after_blind_time_without_imp_limit = -1.0
+aligner = mafft
+blind_after_iter_without_imp = -1
+blind_after_time_without_imp = -1.0
+blind_after_total_iter = 0
+blind_after_total_time = -1.0
+blind_mode_is_final = True
+break_strategy = centroid
+iter_limit = 3
+iter_without_imp_limit = -1
+mask_gappy_sites = 0
+max_mem_mb = 1024
+max_subproblem_frac = 0.0
+max_subproblem_size = 200
+merger = opal
+move_to_blind_on_worse_score = True
+num_cpus = 8
+return_final_tree_and_alignment = True
+start_tree_search_from_current = True
+time_limit = -1.0
+time_without_imp_limit = -1.0
+tree_estimator = fasttree
+
